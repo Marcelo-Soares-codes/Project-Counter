@@ -1,0 +1,8 @@
+.textCounter {
+  font-size: 42px; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 20px; /* Adiciona um espaço na parte inferior */
+  text-transform: uppercase; /* Converte o texto para maiúsculas */
+  letter-spacing: 2px; /* Adiciona espaçamento entre as letras */
+}

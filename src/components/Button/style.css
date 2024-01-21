@@ -1,0 +1,25 @@
+.button {
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #3498db; /* Azul mais vibrante */
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+  font-size: 16px; /* Tamanho da fonte */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+
+  /* Adiciona um efeito de sombra suave */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Estilo hover para uma interação visual mais agradável */
+  &:hover {
+    background-color: #2980b9; /* Cor de fundo mais escura no hover */
+  }
+
+  /* Estilo para foco, útil para acessibilidade */
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 1);
+  }
+}

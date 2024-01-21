@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './style/index.css';
+
+import { CounterContextProvider } from './contexts/CounterContext';
+import Home from './templates/Home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <CounterContextProvider>
+      <Home />
+    </CounterContextProvider>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
